@@ -17,7 +17,7 @@ This project is a starting point for a Flutter application.
 <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.1/OpenedDoor.png" width = "200" height = "400"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.1/Emoji.png" width = "200" height = "400">
 
 
-# 5.2
+## 5.2
 
 <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/LaunchBtn.png" width = "200" height = "400"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/DarkShadow.png" width = "200" height = "400"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/AShadowBtn.png" width = "200" height = "400">
 
@@ -28,3 +28,6 @@ This project is a starting point for a Flutter application.
 <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/CSS.png" width = "200" height = "400">
 
 
+## 5.3
+
+<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.3/CounterApp.png" width = "200" height = "400">
