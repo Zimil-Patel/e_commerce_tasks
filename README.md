@@ -15,4 +15,4 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-<img src = "../3DCube.png">
+<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/MyApp.png" width = "200" height = "400">
