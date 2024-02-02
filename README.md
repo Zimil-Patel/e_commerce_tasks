@@ -7,10 +7,10 @@ A new Flutter project.
 This project is a starting point for a Flutter application.
 
 ## Task-1(MyApp)    
-<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/MyApp.png" width = "200" height = "400">
+<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/MyApp.png" width = "200" height = "400">  <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/MissionOfRNW.png" width = "200" height = "400">
 
 ## Task-2(Mission Of RNW)
-<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/MissionOfRNW.png" width = "200" height = "400">
+
 
 
 
