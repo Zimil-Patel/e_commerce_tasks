@@ -21,7 +21,7 @@ class _CounterAppState extends State<CounterApp> {
 
         //appbar
         appBar: AppBar(
-          backgroundColor: appBarColor,
+          backgroundColor: primaryColor,
           elevation: 1,
           shadowColor: Colors.black,
           title: const Text('Counter App', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),),
@@ -46,7 +46,7 @@ class _CounterAppState extends State<CounterApp> {
                 });
               },
               shape:  const CircleBorder(),
-              backgroundColor: appBarColor,
+              backgroundColor: primaryColor,
               elevation: 1,
               focusElevation: 5,
               splashColor: Colors.white.withOpacity(0.10),
