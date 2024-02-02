@@ -25,3 +25,6 @@ This project is a starting point for a Flutter application.
 <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/GradientBtn.png" width = "200" height = "400"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/IndianFlag.png" width = "200" height = "400"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/Watch.png" width = "200" height = "400">
 
 
+<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.2/GradientBtn.png" width = "200" height = "400">
+
+

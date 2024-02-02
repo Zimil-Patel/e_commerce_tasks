@@ -23,15 +23,15 @@ class CssGradient extends StatelessWidget {
             width: 200,
             decoration: BoxDecoration(
                 gradient: const LinearGradient(
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                  colors: [
-                    Color(0xffcf4f98),
-                    Color(0xfffe3e79),
-                    Color(0xffff5669),
-                    Color(0xffff5669),
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: [
+                      Color(0xffcf4f98),
+                      Color(0xfffe3e79),
+                      Color(0xffff5669),
+                      Color(0xffff5669),
 
-                  ]
+                    ]
                 ),
                 borderRadius: BorderRadius.circular(50),
                 boxShadow: [
