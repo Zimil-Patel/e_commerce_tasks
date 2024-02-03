@@ -1,26 +1,27 @@
-import 'package:e_commerce_tasks/5.1/Cube.dart';
-import 'package:e_commerce_tasks/5.1/Emoji.dart';
-import 'package:e_commerce_tasks/5.1/LetterCover.dart';
-import 'package:e_commerce_tasks/5.1/Mashal.dart';
-import 'package:e_commerce_tasks/5.1/MissionOfRNW.dart';
-import 'package:e_commerce_tasks/5.1/MixUp.dart';
-import 'package:e_commerce_tasks/5.1/MyApp.dart';
-import 'package:e_commerce_tasks/5.1/OpenedDoor.dart';
-import 'package:e_commerce_tasks/5.2/CSS.dart';
-import 'package:e_commerce_tasks/5.2/Watch.dart';
-import 'package:e_commerce_tasks/5.2/AShadowBtn.dart';
-import 'package:e_commerce_tasks/5.2/DarkShadow.dart';
-import 'package:e_commerce_tasks/5.2/GradientBtn.dart';
-import 'package:e_commerce_tasks/5.2/IndianFlag.dart';
-import 'package:e_commerce_tasks/5.2/LaunchButton.dart';
-import 'package:e_commerce_tasks/5.4/Calc.dart';
-import 'package:e_commerce_tasks/Counter/CounterApp.dart';
+import 'package:e_commerce_tasks/5.4/MapList.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
   //   statusBarColor: Colors.red,
   // ));
-  runApp(const Calc());
+  runApp(const MapList());
+}
+
+AppBar addAppBar(
+    {required String title,
+    Icon? leadIcon,
+    required Color textColor,
+    required Color bgColor,
+    required bool centerTitle}) {
+  return AppBar(
+    centerTitle: centerTitle,
+    backgroundColor: bgColor,
+    leading: leadIcon,
+    title: Text(
+      title,
+      style: TextStyle(
+          fontSize: 20, fontWeight: FontWeight.w500, color: textColor),
+    ),
+  );
 }
