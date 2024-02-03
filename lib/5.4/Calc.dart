@@ -61,55 +61,57 @@ class _CalcState extends State<Calc> {
   }
 
   //user defined Btn
-  Widget addBtn(String BtnName) {
-    return GestureDetector(
-      onTap: () {
-        setState(() {
-          if (BtnName == "-2") {
-            counter = counter - 2;
-          } else if (BtnName == "+2")
-            // ignore: curly_braces_in_flow_control_structures
-            counter = counter + 2;
-          else if (BtnName == "-4")
-            // ignore: curly_braces_in_flow_control_structures
-            counter = counter - 4;
-          else if (BtnName == "+4")
-            // ignore: curly_braces_in_flow_control_structures
-            counter = counter + 4;
-          else
-            // ignore: curly_braces_in_flow_control_structures
-            counter = 0;
-        });
-      },
-      child: Padding(
-          padding: const EdgeInsets.only(top: 40),
-          child: Container(
+  Widget addBtn(String btnName) {
+    return Padding(
+        padding: const EdgeInsets.only(top: 40),
+        child: InkWell(
+          onTap: (){
+            setState(() {
+              if (btnName == "-2") {
+                counter = counter - 2;
+              } else if (btnName == "+2")
+                // ignore: curly_braces_in_flow_control_structures
+                counter = counter + 2;
+              else if (btnName == "-4")
+                // ignore: curly_braces_in_flow_control_structures
+                counter = counter - 4;
+              else if (btnName == "+4")
+                // ignore: curly_braces_in_flow_control_structures
+                counter = counter + 4;
+              else
+                // ignore: curly_braces_in_flow_control_structures
+                counter = 0;
+            });
+          },
+          child: Ink(
             height: 60,
             width: 150,
-            alignment: Alignment.center,
             decoration: BoxDecoration(
                 color: const Color(0xff54759e),
                 borderRadius: BorderRadius.circular(12)),
-            child: Text(
-              '$BtnName',
-              style: const TextStyle(
-                  fontSize: 24,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w400),
+            child: Center(
+              child: Text(
+                btnName,
+                style: const TextStyle(
+                    fontSize: 24,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400),
+              ),
             ),
-          )),
+          )
+        )
     );
   }
 
   //user defined row btns
-  Widget addRowWithBtn(String Btn1Name, String Btn2Name) {
+  Widget addRowWithBtn(String btn1Name, String btn2Name) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         //RowBtn1
-        addBtn('$Btn1Name'),
+        addBtn(btn1Name),
         //RowBtn2
-        addBtn('$Btn2Name'),
+        addBtn(btn2Name),
       ],
     );
   }
