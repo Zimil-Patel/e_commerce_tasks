@@ -1,12 +1,11 @@
-import 'package:e_commerce_tasks/5.4/MapList.dart';
-import 'package:e_commerce_tasks/Counter/MultiplicationTable.dart';
+import 'package:e_commerce_tasks/5.4/Icons.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
   //   statusBarColor: Colors.red,
   // ));
-  runApp(const MultiplyTable());
+  runApp(const IconsColRow());
 }
 
 AppBar addAppBar(
@@ -24,5 +23,7 @@ AppBar addAppBar(
       style: TextStyle(
           fontSize: 20, fontWeight: FontWeight.w500, color: textColor),
     ),
+    elevation: 4,
+    shadowColor: Colors.black,
   );
 }
