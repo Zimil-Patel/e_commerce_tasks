@@ -30,7 +30,7 @@ This project is a starting point for a Flutter application.
 
 ## 5.3
 
-<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.3/CounterApp.png" width = "200" height = "400">
+<img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.3/CounterApp.png" width = "200" height = "400"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_commerce_tasks/blob/master/snaps/5.3/Multiplication.png" width = "200" height = "400">
 
 
 ## 5.4
