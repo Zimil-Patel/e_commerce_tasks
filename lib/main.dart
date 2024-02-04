@@ -1,12 +1,11 @@
-import 'package:e_commerce_tasks/5.4/DynamicList.dart';
-
+import 'package:e_commerce_tasks/5.4/IconEditor.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
   //   statusBarColor: Colors.red,
   // ));
-  runApp(const DynamicList());
+  runApp(const IconEditor());
 }
 
 AppBar addAppBar(
