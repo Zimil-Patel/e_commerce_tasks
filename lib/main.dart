@@ -1,11 +1,11 @@
-import 'package:e_commerce_tasks/5.5/Wall.dart';
+import 'package:e_commerce_tasks/5.5/Splitter.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
   //   statusBarColor: Colors.red,
   // ));
-  runApp(const Wall());
+  runApp(const Splitter());
 }
 
 AppBar addAppBar(
