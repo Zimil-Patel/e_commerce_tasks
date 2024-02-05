@@ -183,7 +183,6 @@ class _IconEditorState extends State<IconEditor> {
             selectedIcon = index;
           });
         },
-        borderRadius: BorderRadius.circular(100),
         child: Ink(
           height: 80,
           width: 80,
