@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:e_commerce_tasks/5.1/Cube.dart';
 import 'package:e_commerce_tasks/5.1/Emoji.dart';
 import 'package:e_commerce_tasks/5.1/LetterCover.dart';
