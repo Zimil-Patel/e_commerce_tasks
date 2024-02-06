@@ -38,7 +38,7 @@ void main() {
   runApp(MaterialApp(
     theme: ThemeData(useMaterial3: true),
     debugShowCheckedModeBanner: false,
-    initialRoute: '/home',
+    initialRoute: '/wall',
     routes: {
       '/home': (context) => HomePage(),
       '/cube': (context) => Cube(),

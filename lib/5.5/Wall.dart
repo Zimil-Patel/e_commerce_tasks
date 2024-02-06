@@ -33,7 +33,7 @@ class _WallState extends State<Wall> {
               ...List.generate(
                   wallRow.length,
                   (index) =>
-                      wallRow[index] % 2 != 0 ? rowStyleOne() : rowStyleTwo())
+                      wallRow[index] % 2 != 0 ? addRow(width / 2) : addRow(width / 3))
             ],
           ),
         ),
@@ -41,29 +41,14 @@ class _WallState extends State<Wall> {
     );
   }
 
-  Widget rowStyleOne() {
+  Widget addRow(double width) {
     return Expanded(
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 5),
         child: Row(
           children: [
             Expanded(flex: 1, child: addContainer()),
-            addContainer(width: width / 2, leftMargin: 10, rightMargin: 10),
-            Expanded(flex: 1, child: addContainer()),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget rowStyleTwo({double? bottomMargin, double? topMargin}) {
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 5),
-        child: Row(
-          children: [
-            Expanded(flex: 1, child: addContainer()),
-            addContainer(width: width / 3, leftMargin: 10, rightMargin: 10),
+            addContainer(width: width, leftMargin: 10, rightMargin: 10),
             Expanded(flex: 1, child: addContainer()),
           ],
         ),
