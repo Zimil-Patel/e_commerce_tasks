@@ -27,8 +27,6 @@ class _WallState extends State<Wall> {
         body: Padding(
           padding: const EdgeInsets.symmetric(vertical: 5),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            mainAxisSize: MainAxisSize.min,
             children: [
               ...List.generate(
                   wallRow.length,
