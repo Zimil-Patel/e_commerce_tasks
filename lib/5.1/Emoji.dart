@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Emoji extends StatelessWidget {
@@ -29,9 +28,7 @@ class Emoji extends StatelessWidget {
                         height: 300,
                         width: 300,
                         decoration: const BoxDecoration(
-                          color: Colors.orange,
-                          shape: BoxShape.circle
-                        ),
+                            color: Colors.orange, shape: BoxShape.circle),
                       ),
                       Positioned(
                         top: 245,
@@ -40,24 +37,17 @@ class Emoji extends StatelessWidget {
                           width: 250,
                           alignment: Alignment.topCenter,
                           decoration: const BoxDecoration(
-                            color: Colors.white,
-                            shape: BoxShape.circle
-                          ),
+                              color: Colors.white, shape: BoxShape.circle),
                         ),
                       ),
-
                       Positioned(
                           top: 225,
                           child: Container(
-                          height: 230,
-                          width: 230,
-                          decoration: const BoxDecoration(
-                            color: Colors.orange,
-                            shape: BoxShape.circle
-                        ),
-                        )
-                      ),
-
+                            height: 230,
+                            width: 230,
+                            decoration: const BoxDecoration(
+                                color: Colors.orange, shape: BoxShape.circle),
+                          )),
                       Positioned(
                           top: 300,
                           right: 170,
@@ -65,12 +55,8 @@ class Emoji extends StatelessWidget {
                             height: 65,
                             width: 65,
                             decoration: const BoxDecoration(
-                                color: Colors.white,
-                                shape: BoxShape.circle
-                            ),
-                          )
-                      ),
-
+                                color: Colors.white, shape: BoxShape.circle),
+                          )),
                       Positioned(
                           top: 300,
                           left: 170,
@@ -78,11 +64,8 @@ class Emoji extends StatelessWidget {
                             height: 65,
                             width: 65,
                             decoration: const BoxDecoration(
-                                color: Colors.white,
-                                shape: BoxShape.circle
-                            ),
-                          )
-                      ),
+                                color: Colors.white, shape: BoxShape.circle),
+                          )),
                     ],
                   ),
                 ),
@@ -92,9 +75,13 @@ class Emoji extends StatelessWidget {
                 child: Container(
                   color: Colors.orange,
                   alignment: Alignment.center,
-                  child: const Text('Emoji', style: TextStyle(fontSize: 25,
-                      fontWeight: FontWeight.w400,
-                      color: Colors.white),),
+                  child: const Text(
+                    'Emoji',
+                    style: TextStyle(
+                        fontSize: 25,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.white),
+                  ),
                 ),
               )
             ],
